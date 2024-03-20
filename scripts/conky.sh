@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ## Wait 10 seconds
-sleep 20
+## sleep 5
 
 ## Run conky
-conky
+conky -c ~/.config/conky/Mintaka.conf &

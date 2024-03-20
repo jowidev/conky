@@ -1,0 +1,28 @@
+conky: desktop window (1800006) is subwindow of root window (436)
+conky: window type - desktop
+conky: drawing to created window (0xc00002)
+conky: drawing to double buffer
+conky: received SIGHUP, SIGINT, or SIGTERM to terminate. bye!
+conky: desktop window (1800006) is subwindow of root window (436)
+conky: window type - desktop
+conky: drawing to created window (0xc00002)
+conky: drawing to double buffer
+conky: desktop window (1800006) is subwindow of root window (436)
+conky: window type - desktop
+conky: drawing to created window (0x3400002)
+conky: drawing to double buffer
+/home/jowidev/.config/conky/scripts/motivation.sh: línea 37: [: : se esperaba una expresión entera
+conky: '/home/jowidev/.config/conky/Mintaka.conf' modified, reloading...
+conky: '/home/jowidev/.config/conky/Mintaka.conf' modified, reloading...
+conky: desktop window (1800006) is subwindow of root window (436)
+conky: window type - normal
+conky: drawing to created window (0x3400002)
+conky: drawing to double buffer
+conky: desktop window (1800006) is subwindow of root window (436)
+conky: window type - normal
+conky: drawing to created window (0x3600002)
+conky: drawing to double buffer
+conky: conky: X IO Error: Display 61507dfd74a0
+
+X IO Error: Display 558822088c60
+
