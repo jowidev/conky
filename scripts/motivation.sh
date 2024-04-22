@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to your text file
-TEXT_FILE="/home/jowidev/a.txt"
+TEXT_FILE="/home/jowidev/phrases.txt"
 
 # Select a random line from the text file
 RANDOM_LINE=$(shuf -n 1 "$TEXT_FILE")
@@ -49,4 +49,3 @@ RANDOM_LINE=$(add_line_break "$RANDOM_LINE")
 
 # Print the modified or unmodified random line
 echo -e "$RANDOM_LINE"
-
