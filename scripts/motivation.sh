@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to your text file
-TEXT_FILE="/home/jowidev/phrases.txt"
+TEXT_FILE="/home/jowidev/github/conky/scripts/phrases.txt"
 
 # Select a random line from the text file
 RANDOM_LINE=$(shuf -n 1 "$TEXT_FILE")
