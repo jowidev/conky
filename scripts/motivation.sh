@@ -32,7 +32,14 @@ split_line_at_last_space() {
 add_line_break() {
     local line=$1
     local line_length=${#line}
+    
+    # Get the position of the first newline, if any
     local first_break_pos=$(echo "$line" | grep -b -m 1 -o $'\n' | head -n 1 | cut -d':' -f1)
+
+    # If there is no newline, set first_break_pos to a large number (or just skip this part)
+    if [ -z "$first_break_pos" ]; then
+        first_break_pos=9999  # or you can choose a large number that won't trigger the condition
+    fi
 
     if [ "$line_length" -gt 60 ] && [ "$first_break_pos" -lt 60 ]; then
         echo "${line:0:60}\n${line:60}"
